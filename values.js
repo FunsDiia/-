@@ -14,9 +14,9 @@ var pass_number       = "008420840"; //номер паспорта
 var registeredOn      = "20.09.1999"; //дата регистрации
 
 // Прописка
-var legalAdress       = "Харківська область"; //Место проживание
-var live              = "Харківська область"; //Место рождение 
-var bank_adress       = "Харківська область,Куп`янський район с.Кіндрашівка вул. Паберемна, буд. 12, кв. 5"; //Место жительства указано в банке
+var legalAdress       = "Київська область"; //Место проживание
+var live              = "Київська область"; //Место рождение 
+var bank_adress       = "Київська область,м.Київ вул. Михайла Драгоманова, буд. 10, кв. 45  "; //Место жительства указано в банке
 
 var sex               = "Ч";
 var sex_en            = "М";
@@ -53,9 +53,9 @@ var student_date_out  = "30.06.2025";
 
 // Включение/выключение документов
 var isRightsEnabled   = true;
-var isZagranEnabled   = true;
-var isDiplomaEnabled  = true;
-var isStudyEnabled    = true;
+var isZagranEnabled   = false;
+var isDiplomaEnabled  = false;
+var isStudyEnabled    = false;
 // Добавь остальные переменные по аналогии
 
 // Пути к нужным фото    ?timestamp=N   "photo.jpg?timestamp=N" динамически: var url = "photo.jpg?timestamp=" + N;
